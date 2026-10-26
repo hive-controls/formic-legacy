@@ -1,5 +1,9 @@
 # @hive-controls/formic
 
+> **Retired.** Formic is now a single Go binary: https://github.com/hive-controls/formic. The
+> gate and healer configuration this package provided is built into e2e-doctor. No further
+> releases. This repository is archived as `formic-legacy`.
+
 Formic is the **optional** platform behind any tool that speaks the toolspec contract. It
 runs no engine of its own — it resolves configuration (which gate, which healer, which
 host, any other declared key) and launches the tool that does the real work.
